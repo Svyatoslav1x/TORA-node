@@ -45,7 +45,6 @@ mkdir -p tora && cd tora
 
 cat << EOF > docker-compose.yml
 # ora node docker-compose
-version: '3'
 services:
   confirm:
     image: oraprotocol/tora:confirm
